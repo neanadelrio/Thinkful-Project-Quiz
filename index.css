@@ -1,0 +1,91 @@
+body * {
+	box-sizing: border-box;
+}
+
+html {
+  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Handlee', cursive;
+}
+
+.hidden {
+  display: none;
+}
+
+header {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  font-weight: 900;
+}
+
+.js-startButton, .js-nextButton, .js-reStartButton, .js-submitButton {
+  border-top: 1px solid #f7e797;
+   background: #d465b1;
+   background: -webkit-gradient(linear, left top, left bottom, from(#9c503e), to(#d465b1));
+   background: -webkit-linear-gradient(top, #9c503e, #d465b1);
+   background: -moz-linear-gradient(top, #9c503e, #d465b1);
+   background: -ms-linear-gradient(top, #9c503e, #d465b1);
+   background: -o-linear-gradient(top, #9c503e, #d465b1);
+   padding: 5px 10px;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 20px;
+   text-decoration: none;
+   vertical-align: middle;
+   margin-left: 20px;
+}
+.button:hover {
+   border-top-color: #782a6c;
+   background: #782a6c;
+   color: #cccccc;
+}
+.button:active {
+   border-top-color: #5c1b1b;
+   background: #5c1b1b;
+}
+   
+   
+.js-feedbackText {
+    font-size: 25px;
+}
+
+.neon {
+    color: mediumvioletred;
+    text-shadow: 0 0 5px #A5F1FF, 0 0 10px #A5F1FF,
+                 0 0 20px #A5F1FF, 0 0 30px #A5F1FF,
+                 0 0 40px #A5F1FF;
+}
+
+.js-startpage, .question, .js-resultspage {
+    border: 5px solid black;
+    width: 60%;
+    height: 175px;
+    margin-top: 50px;
+    margin-left: 25px;
+    padding: 5px;
+}
+
+
+@media only screen and (max-width: 585px) {
+    header, h1, .button {
+      font-size: 20px;
+    }
+}
+
+
+
+
+
+

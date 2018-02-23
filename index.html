@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>BeyHive Quiz</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Test you Beyonce Knowledge.">
+    <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+  </head>
+  
+  <body>
+    <header class="header neon" role="header"><span>Ready to Test your Beyoncé Knowledge?</span></header>
+    <section class="js-startPage question" role="startpage">
+      <h1>Get in Formation!!!</h1>
+      <button type="submit" id="startButton" class="js-startButton startButton button">Ring The Alarm</button>
+    </section>
+
+    <section class="js-questionPage" role="questionpage">
+      <form class='js-questions' action="/some-server-endpoint" method ='post'></form>
+    </section>
+      
+    <section class="js-feedback hidden" role="feedback">
+      <p class="js-feedbackText"></p>
+      <!--<button type="button" id="nextButton" class="js-nextButton nextButton button">Next Question</button>-->
+    </section>
+      
+    <section class='js-score score hidden' role="score">
+    <h2></h2>
+    </section>
+  
+    <section class="js-resultsPage header hidden" role="results">
+      <h1>Get in Formation!!!</h1>
+      <button type="submit" id="startButton" class="button js-reStartButton">Restart Quiz</button>
+    </section>
+      
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
